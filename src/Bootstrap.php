@@ -17,6 +17,6 @@ class Bootstrap extends PluginBootstrap
         $antiServer['REQUEST_URI'] = '/';
         $antiCsrf = new AntiCSRF($_POST, $_SESSION, $antiServer);
         $framework->getContainer()->add(AntiCSRF::class, $antiCsrf);
-        $this->addComponentNamespace(__DIR__);
+        $this->addComponentNamespace(__NAMESPACE__);
     }
 }
