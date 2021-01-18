@@ -1,0 +1,22 @@
+{
+    "name": "fernet/csrf",
+    "description": "CSRF Component for the Fernet framework",
+    "type": "library",
+    "require": {
+        "paragonie/anti-csrf": "^2.3",
+        "fernet/framework": "^0.1.3"
+    },
+    "autoload": {
+        "psr-4": {"CsrfFernet\\": "src/"}
+    },
+    "extra": {
+        "class": "My\\Plugin"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rodrigo 'Albo' Arce",
+            "email": "albo@pragmore.com"
+        }
+    ]
+}
